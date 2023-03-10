@@ -10,7 +10,7 @@ public class IK : MonoBehaviour {
     protected Animator animator;
 
     public bool ikActive = false;
-    [FormerlySerializedAs("rightHandObj")] public Transform leftHandHandle = null;
+    public Transform leftHandHandle;
 
     void Start ()
     {
@@ -24,6 +24,8 @@ public class IK : MonoBehaviour {
 
             //if the IK is active, set the position and rotation directly to the goal.
             if(ikActive) {
+                
+                
                 // Set the left hand target position and rotation, if one has been assigned
                 if(leftHandHandle != null) {
                     animator.SetIKPositionWeight(AvatarIKGoal.LeftHand,1);

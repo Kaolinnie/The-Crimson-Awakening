@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -61,7 +60,7 @@ public class PlayerMovement : MonoBehaviour {
             var differenceRot = freeRot.eulerAngles.y - player.transform.eulerAngles.y;
             var eulerY = player.transform.eulerAngles.y;
 
-            if (differenceRot is < 0 or > 0) eulerY = freeRot.eulerAngles.y;            
+            if (differenceRot < 0 || differenceRot > 0) eulerY = freeRot.eulerAngles.y;            
 
             var euler = new Vector3(0, eulerY, 0);
             

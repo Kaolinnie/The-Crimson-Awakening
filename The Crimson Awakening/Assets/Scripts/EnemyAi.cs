@@ -44,6 +44,11 @@ public class EnemyAi : MonoBehaviour
         NAV.speed = speedWalk;
         NAV.SetDestination(WP[currentWP].position);
 
+        if (currentWP < 0 || currentWP >= WP.Length) {
+            currentWP = 0;
+        }
+
+
     }
 
     void Move(float speed) {

@@ -8,6 +8,8 @@ public class EnemryAi : MonoBehaviour
 {
     public NavMeshAgent NAV;
     public Transform player;
+    public float health;
+    public GameObject projectile;
     public LayerMask WhatIsGround, WhatIsPlayer;
     //walk point partrol variables
     public Vector3 WP;
@@ -55,18 +57,30 @@ public class EnemryAi : MonoBehaviour
         NAV.SetDestination(player.position);
     }
 
-    private void AttackPlayer() {
-        NAV.SetDestination(transform.position);
-        transform.LookAt(player);
+    // private void AttackPlayer() {
+    //     NAV.SetDestination(transform.position);
+    //     transform.LookAt(player);
 
-        if (!Attacked) {
-            Attacked = true;
-            Invoke(nameof(ResetAttack), timeBetweenAttack);
-        }
-    }
+    //     if (!Attacked) {
+    //         Rigidbody  rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+    //         rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
+    //         rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+    //         Attacked = true;
+    //         Invoke(nameof(ResetAttack), timeBetweenAttack);
+    //     }
+    // }
 
     private void ResetAttack() {
         Attacked = false;
+    }
+
+    private void TakeDamage(int damage) {
+        health -= damage;
+        if (health <= 0) Invoke(nameof(DestroyEnemy), .5f);
+    }
+
+    private void DestroyEnemy() {
+        Destroy(gameObject);
     }
 
     // Start is called before the first frame update
@@ -87,8 +101,8 @@ public class EnemryAi : MonoBehaviour
         if (playerInVisualRange && !playerInAttackRange) {
             ChasePlayer();
         }
-        if  (playerInAttackRange && playerInVisualRange) {
-            AttackPlayer();
-        }
+        // if  (playerInAttackRange && playerInVisualRange) {
+        //     AttackPlayer();
+        // }
     }
 }

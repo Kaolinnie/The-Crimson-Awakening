@@ -51,6 +51,8 @@ public class PlayerMovement : MonoBehaviour {
         animator.SetInteger(CharacterSpeed, charSpeed);
 
         moveDirection *= charSpeed;
+        
+        moveDirection.y = controller.isGrounded ? 0 : gravity;
 
         UpdateTargetDirection(hMove,vMove);
 

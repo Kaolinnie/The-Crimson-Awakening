@@ -51,9 +51,9 @@ public class EnemyAi : MonoBehaviour
         // agent.isStopped = false;
         // agent.SetDestination(WP[currentWP].position);
 
-        if (currentWP < 0 || currentWP >= WP.Length) {
-            currentWP = 0;
-        }
+        // if (currentWP < 0 || currentWP >= WP.Length) {
+        //     currentWP = 0;
+        // }
 
 
     }

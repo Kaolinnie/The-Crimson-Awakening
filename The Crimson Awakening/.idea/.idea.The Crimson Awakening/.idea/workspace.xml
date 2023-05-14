@@ -2,120 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a350263e-b82e-4cab-88ed-c7ce17b894b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Bayonet Stab.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Bayonet Stab.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Crouch Idle 01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Crouch Idle 01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Run With Sword.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Run With Sword.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standard Run.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standard Run.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standing Melee Combo Attack Ver. 3.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standing Melee Combo Attack Ver. 3.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standing React Large From Left.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standing React Large From Left.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standing React Large From Right.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standing React Large From Right.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standing React Large Gut.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standing React Large Gut.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standing Walk Forward.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Kachujin G Rosales@Standing Walk Forward.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Knife Idle.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Knife Idle.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Y Bot@One Hand Sword Combo.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Y Bot@One Hand Sword Combo.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Y Bot@Two Hand Sword Combo.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Y Bot@Two Hand Sword Combo.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animators.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animators/PlayerAnimatorController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animators/PlayerAnimatorController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Characters/Haru.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Characters/Haru/Y Bot.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Characters/Haru/Y Bot.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/katanaFINAL1_low_katanaCLR_AO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/katanaFINAL1_low_katanaCLR_AO.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/katanaFINAL1_low_katanaCLR_BaseColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/katanaFINAL1_low_katanaCLR_BaseColor.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/katanaFINAL1_low_katanaCLR_Metallic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/katanaFINAL1_low_katanaCLR_Metallic.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/katanaFINAL1_low_katanaCLR_Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/katanaFINAL1_low_katanaCLR_Normal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/katanaFINAL1_low_katanaCLR_Roughness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/katanaFINAL1_low_katanaCLR_Roughness.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Masks.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Masks/AttackMask.mask" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Masks/AttackMask.mask.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Masks/HoldWeapon.mask" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Masks/HoldWeapon.mask.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cams.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cams.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Haru.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Haru.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IK.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IK.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Soundtracks.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/Materials/katanaFINAL1_low_katanaCLR_AO.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/Materials/katanaFINAL1_low_katanaCLR_AO.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/Materials/katanaFINAL1_low_katanaCLR_BaseColor.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/Materials/katanaFINAL1_low_katanaCLR_BaseColor.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/Materials/katanaFINAL1_low_katanaCLR_Metallic.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/Materials/katanaFINAL1_low_katanaCLR_Metallic.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/Materials/katanaFINAL1_low_katanaCLR_Normal.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/Materials/katanaFINAL1_low_katanaCLR_Normal.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/Materials/katanaFINAL1_low_katanaCLR_Roughness.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/Materials/katanaFINAL1_low_katanaCLR_Roughness.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/katanaFINAL1_low.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Weapons/katanaFINAL1_low.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.The Crimson Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The Crimson Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Bayonet Stab.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Bayonet Stab.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Crouch Idle 01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Crouch Idle 01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Run With Sword.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Run With Sword.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standard Run.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standard Run.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standing Melee Combo Attack Ver. 3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standing Melee Combo Attack Ver. 3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standing React Large From Left.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standing React Large From Left.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standing React Large From Right.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standing React Large From Right.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standing React Large Gut.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standing React Large Gut.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standing Walk Forward.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Kachujin G Rosales@Standing Walk Forward.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Knife Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Animations/Knife Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Mira/AttackMask.mask" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Mira/AttackMask.mask.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Mira/Cams.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Mira/Cams.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Mira/HoldWeapon.mask" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Mira/HoldWeapon.mask.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Mira/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Mira/Scripts/IK.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Mira/Scripts/IK.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Mira/Scripts/PlayerAnimatorController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Mira/Scripts/PlayerAnimatorController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Playground.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Temp.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Temp.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAi.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,6 +101,7 @@
       <workItem from="1678397783324" duration="13268000" />
       <workItem from="1678456920359" duration="1852000" />
       <workItem from="1683738142608" duration="1377000" />
+      <workItem from="1684026347392" duration="19000" />
     </task>
     <servers />
   </component>

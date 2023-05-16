@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a350263e-b82e-4cab-88ed-c7ce17b894b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.The Crimson Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The Crimson Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAi.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -102,6 +101,7 @@
       <workItem from="1678456920359" duration="1852000" />
       <workItem from="1683738142608" duration="1377000" />
       <workItem from="1684026347392" duration="19000" />
+      <workItem from="1684264784529" duration="83000" />
     </task>
     <servers />
   </component>

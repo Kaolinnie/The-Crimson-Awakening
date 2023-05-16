@@ -7,8 +7,6 @@ public class EnemyAi : MonoBehaviour
     private NavMeshAgent agent;
     private GameObject player;
     
-    public float startWaitTime = 4;
-    public float timeToRotate = 2;
     public float speedWalk = 2;
     public float speedRun = 5;
 
@@ -16,54 +14,25 @@ public class EnemyAi : MonoBehaviour
     public float timer;
     public Transform patrolPoints;
 
-    private int patrolIndex;
-    private bool chasing;
-
-    // public LayerMask PM;
-    // public LayerMask OM;
-    //
-    // public Transform[] WP;
-    // int currentWP;
-    // Vector3 playerLastPos = Vector3.zero;
-    // Vector3 playerPos;
-    //
-    // float timeWait, t_timeToRotate;
-    //
-    // bool t_playerInRange, t_playerNear, t_IsPatrolling, t_playerFound;
-
-
+    private int _patrolIndex;
+    private bool _chasing;
 
     // Start is called before the first frame update
     void Start()
     {
-        // playerPos = Vector3.zero;
-        // t_IsPatrolling = true;
-        // t_playerFound = false;
-        // t_playerInRange = false;
-        // timeWait = startWaitTime;
-        // t_timeToRotate = timeToRotate;
-        // currentWP = 0;
         player = GameObject.FindGameObjectWithTag("Player");
         agent = GetComponent<NavMeshAgent>();
         agent.speed = speedWalk;
         agent.isStopped = false;
         GoToNextPoint();
-        // agent.isStopped = false;
-        // agent.SetDestination(WP[currentWP].position);
-
-        // if (currentWP < 0 || currentWP >= WP.Length) {
-        //     currentWP = 0;
-        // }
-
-
     }
     
     // Update is called once per frame
-    void Update() {
+    private void Update() {
         timer -= Time.deltaTime;
         timer = Mathf.Clamp(timer, 0.0f, 1.0f);
         if (IsInDistance()) {
-            chasing = true;
+            _chasing = true;
             agent.speed = speedRun;
             timer = 1.0f;
             agent.destination = player.transform.position;
@@ -71,10 +40,10 @@ public class EnemyAi : MonoBehaviour
         else if (timer > 0) {
             agent.destination = player.transform.position;
         } 
-        else if (chasing) {
-            chasing = false;
+        else if (_chasing) {
+            _chasing = false;
             agent.speed = speedWalk;
-            agent.destination = patrolPoints.GetChild(patrolIndex).position;
+            agent.destination = patrolPoints.GetChild(_patrolIndex).position;
         }
         else if (!agent.pathPending && agent.remainingDistance < 0.5f) {
             GoToNextPoint();
@@ -83,13 +52,12 @@ public class EnemyAi : MonoBehaviour
 
     private void GoToNextPoint() {
         if (patrolPoints.childCount == 0) return;
-        agent.destination = patrolPoints.GetChild(patrolIndex).position;
-        patrolIndex = (patrolIndex + 1) % patrolPoints.childCount;
+        agent.destination = patrolPoints.GetChild(_patrolIndex).position;
+        _patrolIndex = (_patrolIndex + 1) % patrolPoints.childCount;
     }
 
     private bool IsInDistance() {
-        float mag = (player.transform.position - transform.position).magnitude;
-        Debug.Log(mag);
+        var mag = (player.transform.position - transform.position).magnitude;
         return mag <= maxDistance;
     } 
 

@@ -50,11 +50,13 @@ public class EnemyAi : MonoBehaviour
         } 
     }
 
-    private void GoToNextPoint() {
+    private void GoToNextPoint()
+    {
         if (patrolPoints.childCount == 0) return;
+        _patrolIndex = (_patrolIndex + 1) % patrolPoints.childCount; // Increment the _patrolIndex
         agent.destination = patrolPoints.GetChild(_patrolIndex).position;
-        _patrolIndex = (_patrolIndex + 1) % patrolPoints.childCount;
     }
+
 
     private bool IsInDistance() {
         var mag = (player.transform.position - transform.position).magnitude;

@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour {
 
     private int charSpeed;
     private static readonly int Attack1 = Animator.StringToHash("Attack");
+    
+    private Player _player;
 
     // Start is called before the first frame update
     void Start() {
@@ -30,10 +32,13 @@ public class PlayerMovement : MonoBehaviour {
         controller = player.gameObject.GetComponent<CharacterController>();
         animator = player.gameObject.GetComponent<Animator>();
         camera = Camera.main;
+        
+        _player = Player.Instance;
     }
 
     // Update is called once per frame
     void Update() {
+        if (_player.isDead) return;
         
         if(Input.GetButtonDown("Fire1")) Attack();
         

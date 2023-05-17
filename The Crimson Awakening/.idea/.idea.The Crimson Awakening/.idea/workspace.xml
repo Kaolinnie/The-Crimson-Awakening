@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a350263e-b82e-4cab-88ed-c7ce17b894b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/EnemyIdle.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/EnemyIdle.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Zombie Attack.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Zombie Attack.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/boss1.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/boss1.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Boss_1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Boss_1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/patrolPoint.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/patrolPoint.prefab.meta" afterDir="false" />
+    <list default="true" id="a350263e-b82e-4cab-88ed-c7ce17b894b1" name="Changes" comment="added enemy health decreasing">
+      <change afterPath="$PROJECT_DIR$/Assets/Images/coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/coin.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/sword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/sword.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/UIHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/UIHandler.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.The Crimson Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The Crimson Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animators/EnemyAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animators/EnemyAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/LevelOneGrunt/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/LevelOneGrunt/Animations/Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/LevelOneGrunt/Animations/Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/LevelOneGrunt/Animations/Zombie Attack.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/LevelOneGrunt/Animations/Zombie Attack.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/LevelOneGrunt/character Variant 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/LevelOneGrunt/character Variant 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/LevelOneGrunt/character.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/LevelOneGrunt/character.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Boss_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Boss_1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tools/HealthCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tools/HealthCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tools/PlayerUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tools/PlayerUI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAi.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/SwordHitEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/SwordHitEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Singletons/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Singletons/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Singletons/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Singletons/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +25,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SwordHitEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/UIHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -132,7 +118,7 @@
       <workItem from="1683738142608" duration="1377000" />
       <workItem from="1684026347392" duration="19000" />
       <workItem from="1684264784529" duration="7821000" />
-      <workItem from="1684348490826" duration="2423000" />
+      <workItem from="1684348490826" duration="5905000" />
     </task>
     <task id="LOCAL-00001" summary="player health and death works">
       <created>1684279379030</created>
@@ -148,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684282698512</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added enemy health decreasing">
+      <created>1684351661637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684351661637</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +166,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="player health and death works" />
     <MESSAGE value="enemy health done" />
-    <option name="LAST_COMMIT_MESSAGE" value="enemy health done" />
+    <MESSAGE value="added enemy health decreasing" />
+    <option name="LAST_COMMIT_MESSAGE" value="added enemy health decreasing" />
   </component>
 </project>

@@ -48,6 +48,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6783619c3a843a246b1e7b07d0d27b4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  isDead: 0
 --- !u!1001 &3635362260619806022
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -317,6 +319,11 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 6695906416553814385}
     m_Modifications:
+    - target: {fileID: 1011243078981533265, guid: cf6e5a20a963f8e4389089f74295b697,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2062306569636002528, guid: cf6e5a20a963f8e4389089f74295b697,
         type: 3}
       propertyPath: m_Name

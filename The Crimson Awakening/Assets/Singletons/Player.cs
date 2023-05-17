@@ -55,6 +55,5 @@ public class Player : MonoBehaviour {
 
     private void Update() {
         _healthBar.value = health;
-        AdjustHealth(-20.0f);
     }
 }

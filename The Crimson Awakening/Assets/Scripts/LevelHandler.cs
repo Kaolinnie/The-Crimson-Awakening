@@ -20,7 +20,7 @@ public class LevelHandler : MonoBehaviour
 
     void OnTriggerEnter(Collider other){
         if(other.gameObject.name == "Haru"){
-            SceneManager.LoadScene(level++);
+            SceneManager.LoadScene(++level);
         }
     }
 }

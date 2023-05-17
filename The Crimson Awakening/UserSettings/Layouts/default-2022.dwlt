@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 97
+  controlID: 100
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 55
+  controlID: 47
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 46
+  controlID: 48
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -433,22 +433,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Kaolin\Desktop\The-Crimson-Awakening\The Crimson Awakening
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 36550000
-    m_LastClickedID: 21814
-    m_ExpandedIDs: 0000000036550000385500003a5500003c5500003e5500004055000042550000445500004655000048550000e8550000ea550000ec55000000ca9a3b
+    scrollPos: {x: 0, y: 188}
+    m_SelectedIDs: 4a990000
+    m_LastClickedID: 39242
+    m_ExpandedIDs: 0000000016990000189900001a9900001c9900001e99000020990000229900002499000026990000289900004a99000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,7 +476,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000036550000385500003a5500003c5500003e5500004055000042550000445500004655000048550000
+    m_ExpandedIDs: 0000000016990000189900001a9900001c9900001e9900002099000022990000249900002699000028990000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -606,9 +606,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 36550000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c4dffdffcedffdffbef3fdffba28feff4e29feff96d9ffff9ed9ffffced9ffff18efffff3cf8ffff0cfbffff
+      m_ExpandedIDs: 78adffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -891,9 +891,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 571.5877, y: -652.03394, z: -943.49554}
+    m_Target: {x: 546.2519, y: 326.46848, z: 6.7910323}
     speed: 2
-    m_Value: {x: 501.1079, y: 276.10413, z: 7.6166515}
+    m_Value: {x: 13.065489, y: -0.33936834, z: -6.979518}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -939,13 +939,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.07121401, y: 0.9287753, z: -0.25435746, w: 0.2600331}
+    m_Target: {x: -0.3040838, y: -0.31849363, z: 0.108667605, w: -0.8912302}
     speed: 2
-    m_Value: {x: -0.13043776, y: 0.00028135738, z: -0.00002699598, w: -0.99145645}
+    m_Value: {x: -0.037619848, y: -0.8788699, z: 0.07029166, w: -0.4703526}
   m_Size:
     m_Target: 646.47766
     speed: 2
-    m_Value: 10.547511
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2

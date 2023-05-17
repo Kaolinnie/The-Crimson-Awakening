@@ -11,20 +11,28 @@ public class EnemyAi : MonoBehaviour
     public float speedRun = 5;
 
     public float maxDistance = 5;
+    public float attackRange = 2;
     public float timer;
+    private Animator animator;
     public Transform patrolPoints;
-
+    private static readonly int Attack1 = Animator.StringToHash("Attacking");
     private int _patrolIndex;
     private bool _chasing;
+    public float attackInterval = 1f; // Time between each attack
+
+    private bool isAttacking = false;
+    private Player _player;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         agent = GetComponent<NavMeshAgent>();
+        animator = player.gameObject.GetComponent<Animator>();
         agent.speed = speedWalk;
         agent.isStopped = false;
         GoToNextPoint();
+        _player = Player.Instance;
     }
     
     // Update is called once per frame
@@ -36,6 +44,7 @@ public class EnemyAi : MonoBehaviour
             agent.speed = speedRun;
             timer = 1.0f;
             agent.destination = player.transform.position;
+            AttackPlayer();
         }
         else if (timer > 0) {
             agent.destination = player.transform.position;
@@ -48,6 +57,14 @@ public class EnemyAi : MonoBehaviour
         else if (!agent.pathPending && agent.remainingDistance < 0.5f) {
             GoToNextPoint();
         } 
+    }
+
+    private void AttackPlayer() {
+        var mag = (player.transform.position - transform.position).magnitude;
+        if (mag < attackRange) {
+            animator.SetTrigger(Attack1);
+            _player.AdjustHealth(-5.0f);
+        }
     }
 
     private void GoToNextPoint()

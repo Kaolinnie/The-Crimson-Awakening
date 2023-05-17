@@ -1,12 +1,18 @@
+using System;
 using UnityEngine;
 
 public class SwordHitEnemy : MonoBehaviour {
+    private Player _player;
+
+    private void Start() {
+        _player = Player.Instance;
+    }
+
+
     private void OnTriggerEnter(Collider collider) {
-        Debug.Log($"collision occurred: {collider.gameObject.tag}");
-        
         if (collider.gameObject.CompareTag("Enemy")) {
             Enemy enemyScript = collider.gameObject.GetComponent<Enemy>();
-            enemyScript.health -= 20.0f;
+            enemyScript.health -= _player.damage;
         }
     }
 }

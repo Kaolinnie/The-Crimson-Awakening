@@ -17,6 +17,9 @@ public class Player : MonoBehaviour {
     private float _maxPlayerHealth = 200;
     private Animator animator;
     public bool isDead;
+    private CharacterController _cc;
+
+    public float damage = 20.0f;
 
     private static readonly int IsDead = Animator.StringToHash("Die");
 
@@ -27,6 +30,7 @@ public class Player : MonoBehaviour {
         animator = gameObject.GetComponent<Animator>();
         health = MaxPlayerHealth;
         _player = GameObject.FindGameObjectWithTag("Player");
+        _cc = _player.GetComponent<CharacterController>();
         animator = _player.GetComponent<Animator>();
         _healthBar = GameObject.FindGameObjectWithTag("PlayerHealthBar").GetComponent<Slider>();
         _healthBar.maxValue = MaxPlayerHealth;
@@ -48,6 +52,9 @@ public class Player : MonoBehaviour {
         if (health <= 0) {
             health = 0;
             isDead = true;
+            // var center = _cc.center;
+            // center = new Vector3(center.x,center.y+1,center.z);
+            // _cc.center = center;
             animator.SetTrigger(IsDead);
         }
         return health;
@@ -55,6 +62,5 @@ public class Player : MonoBehaviour {
 
     private void Update() {
         _healthBar.value = health;
-        // AdjustHealth(-20.0f);
     }
 }

@@ -15,7 +15,8 @@ public class EnemyAi : MonoBehaviour
     public float timer;
     private Animator animator;
     public Transform patrolPoints;
-    private static readonly int Attack1 = Animator.StringToHash("Attacking");
+    private static readonly int Attack1 = Animator.StringToHash("Attack");
+    private static readonly int CharSpeed = Animator.StringToHash("CharSpeed");
     private int _patrolIndex;
     private bool _chasing;
     public float attackInterval = 1f; // Time between each attack
@@ -28,15 +29,12 @@ public class EnemyAi : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         agent = GetComponent<NavMeshAgent>();
-        animator = player.gameObject.GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         agent.speed = speedWalk;
+        if (animator!=null) animator.SetFloat(CharSpeed,speedWalk);
         agent.isStopped = false;
         GoToNextPoint();
         _player = Player.Instance;
-    }
-
-    void onContact() {
-        Player.Instance.AdjustHealth(-1.0f);
     }
     
     // Update is called once per frame
@@ -66,8 +64,8 @@ public class EnemyAi : MonoBehaviour
     private void AttackPlayer() {
         var mag = (player.transform.position - transform.position).magnitude;
         if (mag < attackRange) {
-            animator.SetTrigger(Attack1);
-            _player.AdjustHealth(-5.0f);
+            if (animator!=null) animator.SetTrigger(Attack1);
+            _player.AdjustHealth(-10.0f);
         }
     }
 

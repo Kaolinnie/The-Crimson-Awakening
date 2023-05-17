@@ -34,6 +34,10 @@ public class EnemyAi : MonoBehaviour
         GoToNextPoint();
         _player = Player.Instance;
     }
+
+    void onContact() {
+        Player.Instance.AdjustHealth(-1.0f);
+    }
     
     // Update is called once per frame
     private void Update() {

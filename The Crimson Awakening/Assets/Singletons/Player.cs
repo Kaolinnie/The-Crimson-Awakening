@@ -14,6 +14,7 @@ public class Player : MonoBehaviour {
     
     public float health;
     private Slider _healthBar;
+    public int mon;
     private float _maxPlayerHealth = 200;
     private Animator animator;
     public bool isDead;
@@ -27,6 +28,7 @@ public class Player : MonoBehaviour {
     // Start is called before the first frame update
     void Start()
     {
+        mon = 0;
         animator = gameObject.GetComponent<Animator>();
         health = MaxPlayerHealth;
         _player = GameObject.FindGameObjectWithTag("Player");
@@ -58,6 +60,14 @@ public class Player : MonoBehaviour {
             animator.SetTrigger(IsDead);
         }
         return health;
+    }
+
+    public int AdjustMon(int value){
+        if(mon + value < 0){
+            return mon;
+        }
+        mon += value;
+        return mon;
     }
 
     private void Update() {

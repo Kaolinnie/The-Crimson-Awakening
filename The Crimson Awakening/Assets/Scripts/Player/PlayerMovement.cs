@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
 // link to video that helped me with this script
 // https://www.youtube.com/watch?v=T9IIIKdsV4Y
 public class PlayerMovement : MonoBehaviour {

@@ -18,6 +18,9 @@ public class Player : MonoBehaviour {
     private float _maxPlayerHealth = 200;
     private Animator animator;
     public bool isDead;
+    public bool canRotate;
+    
+    
     private CharacterController _cc;
 
     public float damage = 20.0f;
@@ -38,6 +41,7 @@ public class Player : MonoBehaviour {
         _healthBar.maxValue = MaxPlayerHealth;
         _healthBar.direction = Slider.Direction.LeftToRight;
         isDead = false;
+        canRotate = true;
     }
 
     public float Health {

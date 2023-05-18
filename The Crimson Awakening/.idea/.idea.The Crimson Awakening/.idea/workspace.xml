@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a350263e-b82e-4cab-88ed-c7ce17b894b1" name="Changes" comment="added enemy health decreasing">
-      <change afterPath="$PROJECT_DIR$/Assets/Images/coin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/coin.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/sword.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/UIHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/UIHandler.cs.meta" afterDir="false" />
+    <list default="true" id="a350263e-b82e-4cab-88ed-c7ce17b894b1" name="Changes" comment="fixed">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Objects/VendingMachine.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Objects/VendingMachine.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tools/ShopUI.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tools/ShopUI.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Levels.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/LevelOne.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/LevelOne.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/LevelOne.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/LevelOne/NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/LevelOne/NavMesh.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.The Crimson Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The Crimson Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Boss_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Boss_1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Objects/Vending Machine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Objects/Vending Machine.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tools/PlayerUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tools/PlayerUI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Singletons/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Singletons/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Temp.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Temp.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop/OpenShopScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shop/OpenShopScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Singletons/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Singletons/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +36,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Prefabs/Enemies/Boss_1.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Prefabs/Enemies/Boss_1.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Prefabs/Tools/PlayerUI.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Prefabs/Tools/PlayerUI.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Prefabs/Tools/PlayerUI.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Prefabs/Tools/PlayerUI.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SwordHitEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/UIHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Singletons/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Singletons/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Singletons/Player.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

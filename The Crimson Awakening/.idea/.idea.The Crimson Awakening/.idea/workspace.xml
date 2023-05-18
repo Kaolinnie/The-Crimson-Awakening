@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a350263e-b82e-4cab-88ed-c7ce17b894b1" name="Changes" comment="fixed">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1/NavMesh.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1/NavMesh.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/CameraMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/CameraMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Singletons/LevelHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Singletons/LevelHandler.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.The Crimson Awakening/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The Crimson Awakening/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameTutorial 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameTutorial 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/LevelOne.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/LevelOne.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/LevelOne.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/LevelOne/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/LevelOne/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BtnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BtnManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Singletons/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Singletons/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="a350263e-b82e-4cab-88ed-c7ce17b894b1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +14,7 @@
     <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Prefabs/Tools/PlayerUI.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Prefabs/Tools/PlayerUI.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Prefabs/Tools/PlayerUI.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Kaolin/Desktop/The-Crimson-Awakening/The Crimson Awakening/Assets/Scripts/BtnManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SwordHitEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/UIHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -164,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684351661637</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tried">
+      <created>1684382306504</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684382306504</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +170,7 @@
     <MESSAGE value="player health and death works" />
     <MESSAGE value="enemy health done" />
     <MESSAGE value="added enemy health decreasing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added enemy health decreasing" />
+    <MESSAGE value="tried" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried" />
   </component>
 </project>

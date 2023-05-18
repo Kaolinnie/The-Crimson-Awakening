@@ -28,7 +28,7 @@ public class Player : MonoBehaviour {
     // Start is called before the first frame update
     void Start()
     {
-        mon = 0;
+        mon = 1000;
         animator = gameObject.GetComponent<Animator>();
         health = MaxPlayerHealth;
         _player = GameObject.FindGameObjectWithTag("Player");
@@ -60,6 +60,27 @@ public class Player : MonoBehaviour {
             animator.SetTrigger(IsDead);
         }
         return health;
+    }
+
+    public float HeathItem(float value) {
+        health += value;
+        if (health <= 0) {
+            health = 0;
+            isDead = true;
+            // var center = _cc.center;
+            // center = new Vector3(center.x,center.y+1,center.z);
+            // _cc.center = center;
+            animator.SetTrigger(IsDead);
+        }
+        return health;
+    }
+
+    public float DamageItem(float value) {
+        damage += value;
+        if (damage <= 0) {
+            damage = 0;
+        }
+        return damage;
     }
 
     public int AdjustMon(int value){
